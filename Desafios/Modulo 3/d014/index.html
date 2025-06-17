@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabela de Notas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 60%;
+      margin: auto;
+    }
+
+    th, td {
+      border: 1px solid #444;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #444;
+      color: white;
+    }
+
+    .area {
+      background-color: #f2f2f2;
+      font-weight: bold;
+      text-align: left;
+    }
+
+    .media {
+      background-color: #999;
+      font-weight: bold;
+      color: white;
+    }
+
+    .disciplina {
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <tr>
+      <th>Área</th>
+      <th>Disciplinas</th>
+      <th>Nota 1</th>
+      <th>Nota 2</th>
+      <th>Média</th>
+    </tr>
+
+    <tr>
+      <td class="area" rowspan="4">Exatas</td>
+      <td class="disciplina">Matemática</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td class="disciplina">Física</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td class="disciplina">Química</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td class="disciplina">Biologia</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
+
+    <tr>
+      <td colspan="4" class="media">Média de Exatas</td>
+      <td class="media">0.0</td>
+    </tr>
+
+    <tr>
+      <td class="area" rowspan="2">Humanas</td>
+      <td class="disciplina">História</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td class="disciplina">Geografia</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
+
+    <tr>
+      <td colspan="4" class="media">Média de Humanas</td>
+      <td class="media">0.0</td>
+    </tr>
+  </table>
+
+</body>
+</html>
